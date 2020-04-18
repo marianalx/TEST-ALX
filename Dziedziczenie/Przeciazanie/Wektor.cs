@@ -10,12 +10,10 @@ namespace Dziedziczenie.Przeciazanie
     {
         private double x;
         private double y;
-        private double z;
 
         public double X { get { return x; } }
         public double Y { get { return y; } }
 
-        public double Z { get; }
 
         public Wektor(double x, double y)
         {
