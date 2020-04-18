@@ -18,7 +18,7 @@ namespace Dziedziczenie.KlasaAbstrakcyjna
 
         public void ShowInfo()
         {
-            Console.WriteLine("{0} - {1}", name, price);
+            Console.WriteLine("Informacja o produkcie {0} - {1}", name, price);
         }
 
         public abstract void ShowPrice();
