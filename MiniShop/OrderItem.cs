@@ -12,7 +12,16 @@ namespace MiniShop
         private int qnty;
 
         public double ProductPrice { get { return product.Price; } }
-        public double Qnty { get { return qnty; } }
+        public int Qnty { 
+            get { return qnty; } 
+            set { qnty = value; }
+        }
+        public Product Product { 
+            get
+            {
+                return product;
+            }
+        }
 
         public OrderItem(Product product, int qnty)
         {
