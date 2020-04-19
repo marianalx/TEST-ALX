@@ -21,5 +21,10 @@ namespace MiniShop
         {
             this.id=id; this.name = name; this.price = price; this.descr = descr;
         }
+
+        public override string ToString()
+        {
+            return String.Format("ID={2}, Nazwa={0}, cena={1}", name, price, id );
+        }
     }
 }

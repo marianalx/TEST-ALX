@@ -10,7 +10,8 @@ namespace MiniShop
     {
         static void Main(string[] args)
         {
-            Product prMaseczka = new Product(1, "Maseczka", 4.99);
+            Product prMaseczka = new Product(1, "Maseczka", 4.9);
+            Console.WriteLine(prMaseczka);
             Product prPapier = new Product(2, "Papier toaletowy", 14.99, "3 grube warstwy");
             Product prRyz = new Product(3, "Ryż", 2.99);
 
